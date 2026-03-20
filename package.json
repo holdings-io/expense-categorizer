@@ -1,0 +1,23 @@
+{
+  "name": "@holdings-io/expense-categorizer",
+  "version": "1.0.0",
+  "description": "Rule-based expense categorization engine. Maps merchant names, MCC codes, and keywords to standard accounting categories.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "data"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["expense", "categorization", "accounting", "mcc", "merchant", "finance", "bookkeeping", "plaid", "transactions"],
+  "author": "Holdings <engineering@holdings.io> (https://getholdings.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holdings-io/expense-categorizer.git"
+  },
+  "homepage": "https://github.com/holdings-io/expense-categorizer#readme",
+  "bugs": { "url": "https://github.com/holdings-io/expense-categorizer/issues" },
+  "engines": { "node": ">=16.0.0" },
+  "devDependencies": { "typescript": "^5.0.0" }
+}
